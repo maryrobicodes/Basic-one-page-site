@@ -1,0 +1,56 @@
+@charset "utf-8";
+* {
+margin: 0px;
+font-family: 'Nunito', sans-serif;
+}
+.paggie {
+	height: 100vh;
+	width: 100vw;
+}
+#menu {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background: gold;
+  z-index: 1000;
+}
+#menu > div {
+	padding: 20px;
+	cursor: pointer;
+}
+#menu > div:hover {
+	background: yellow;
+}
+#home {
+background-image: url("https://www.become.co/blog/wp-content/uploads/2019/03/xiStock-584498720-1-1-1024x576.jpg.pagespeed.ic.VrVp15nx0Y.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+#aboutus {
+margin-top: 50px;
+padding: 40px;
+background: white;
+}
+#construction {
+margin-top: 50px;
+padding: 40px;
+background: white;
+}
+#policies {
+margin-top: 50px;
+padding: 40px;
+background: white;
+}
+#contactus {
+margin-top: 50px;
+padding: 40px;
+}
+h1 {
+padding-bottom: 20px;
+}
+h3 {
+padding-top: 30px;
+padding-bottom: 30px;
+}
